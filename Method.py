@@ -34,5 +34,6 @@ def decode(encodedText, shift):
     return decodedText
 
 print(encode("Hello World", 7))
+#>> OLSSVGCVYSK
 print(decode("OLSSVGCVYSK", 7))
-  
+#>> HELLO WORLD
